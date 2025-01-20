@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .swin-container{
+            position: absolute; 
+        }
+        #boys{
+            width: 200px;
+        }
+        #taiar{
+            width: 200px;
+        }
+        #waters{
+            width: 200px;
+        }
+        .box{
+            border: 2px dotted yellow;
+            width: 200px;
+        }
+        /* .taiar{
+            position: relative;
+            left: 50px;
+        } */
+         /* .taiar{
+            position:absolute;
+            top: 50px;
+            left: 200px;
+         } */
+        /* #btn1{
+            position: sticky;
+            top: 0px;
+        } */
+        #btn1{
+            top: 0px;
+            position: fixed;
+            background-color: yellow;
+        }
+        .taiar{
+            position:sticky;
+            top: 0px;
+        }
+
+        .taiar{
+            position: fixed;
+            top: 200px;
+            left: 100px;
+        }
+        .dummy{
+            border: 2px solid yellow;
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>CSS Position</h3>
+    <button id="btn1">ok</button>
+    <ol>
+        <!-- flow related -->
+        <li>static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <!-- scroll related -->
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="swin-container">
+        <div class="box boy">
+            <img id="boys" src="image/boy.jpg" alt="">
+        </div>
+        <div class="box taiar">
+            <img id="taiar" src="image/taiar.jpg" alt="">
+        </div>
+        <div class="box water">
+            <img id="waters" src="image/water.png" alt="">
+        </div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+</body>
+</html>
