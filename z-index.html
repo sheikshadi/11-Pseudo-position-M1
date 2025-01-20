@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index aboslute</title>
+    <style>
+        #image-sty{
+            width: 200px;
+            height: 200px;
+        }
+        .box{
+            position: relative;
+        }
+        .ring{
+            top: -100px;
+            z-index: 5;
+        }
+        .boy{
+            z-index: 15;
+        }
+        .water{
+            top: -250px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Z index</h3>
+    <div class="swim-container">
+        <div class="box boy">
+            <img id="image-sty" src="image/boy.jpg" alt="">
+        </div>
+        <div class="box ring">
+            <img id="image-sty" src="image/taiar.jpg" alt="">
+        </div>
+        <div class="box water">
+            <img id="image-sty" src="image/water.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>

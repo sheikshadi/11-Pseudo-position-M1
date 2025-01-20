@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element stack</title>
+    <style>
+        /* h3::before{
+            content: 'Before';
+        } */
+        h3::after{
+            content: ' pdf';
+            color: chocolate;
+            font-size: 10px;
+            background-color: chartreuse;
+        }
+        p::first-letter{
+            font-size: 5em;
+        }
+        p::first-line{
+            background-color: chocolate;
+        }
+        ::selection{
+            background-color: yellowgreen;
+        }
+        input::placeholder{
+            color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <!-- h3*3{Heading-$} -->
+     <h3>Heading-1</h3>
+     <h3>Heading-2</h3>
+     <h3>Heading-3</h3>
+     <h3>Heading-4</h3>
+     <h3>Heading-5</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia in officia reiciendis iusto soluta provident tenetur ut aliquam, excepturi incidunt.</p>
+     <p>Expedita fuga cupiditate soluta, repellat iste culpa aperiam labore! Ab commodi similique consequuntur qui voluptatum, sapiente sint blanditiis quos obcaecati?</p>
+     <p>Illum natus sunt iure voluptates possimus odit saepe rem fuga tempora cupiditate! Fuga quam ipsa aliquam facilis enim, impedit quia?</p>
+</body>
+</html>
